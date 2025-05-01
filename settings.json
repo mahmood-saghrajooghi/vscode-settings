@@ -1,0 +1,242 @@
+{
+  "gitlens.hovers.currentLine.over": "line",
+  "javascript.validate.enable": false,
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.rulers": [
+    100
+  ],
+  "[scss]": {
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": [
+      "document"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "editor.inlineSuggest.enabled": true,
+  "todohighlight.keywords": [
+    {
+      "text": "REMOVEME:",
+      "color": "white",
+      "backgroundColor": "#8b5cf6",
+      "overviewRulerColor": "grey"
+    }
+  ],
+  "githubPullRequests.pullBranch": "never",
+  "editor.indentSize": "tabSize",
+  "editor.detectIndentation": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "scss"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.lineNumbers": "relative",
+  "accessibility.signals.diffLineInserted": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasError": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.lineHasWarning": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.onDebugBreak": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.noInlayHints": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.taskCompleted": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.taskFailed": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.terminalCommandFailed": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.terminalBell": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.notebookCellCompleted": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.notebookCellFailed": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineModified": {
+    "sound": "off"
+  },
+  "accessibility.signals.chatRequestSent": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "accessibility.signals.chatResponseReceived": {
+    "sound": "off"
+  },
+  "accessibility.signals.clear": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "accessibility.signals.progress": {
+    "sound": "off",
+    "announcement": "auto"
+  },
+  "editor.accessibilitySupport": "off",
+  "diffEditor.renderSideBySide": true,
+  "workbench.editor.enablePreview": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.activityBar.orientation": "vertical",
+  "cursor.general.enableShadowWorkspace": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "Cargo.toml": "Cargo.lock"
+  },
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "cursor.cmdk.useThemedDiffBackground": true,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "commands": ["vscode-harpoon.addEditor"]
+    },
+    {
+      "before": ["<leader>", "p", "e"],
+      "commands": ["vscode-harpoon.editorQuickPick"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["vscode-harpoon.gotoEditor1"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["vscode-harpoon.gotoEditor2"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["vscode-harpoon.gotoEditor3"]
+    },
+    {
+      "before": ["<C-;>"],
+      "commands": ["vscode-harpoon.gotoEditor4"]
+    },
+    {
+      "before": ["<leader>", "<C-j>"],
+      "commands": ["vscode-harpoon.addEditor1"]
+    },
+    {
+      "before": ["<leader>", "<C-k>"],
+      "commands": ["vscode-harpoon.addEditor2"]
+    },
+    {
+      "before": ["<leader>", "<C-l>"],
+      "commands": ["vscode-harpoon.addEditor3"]
+    },
+    {
+      "before": ["<leader>", "<C-;>"],
+      "commands": ["vscode-harpoon.addEditor4"]
+    },
+  ],
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 250,
+  "vim.visualstar": true,
+  "vim.easymotion": true,
+  "window.newWindowDimensions": "maximized",
+  "diffEditor.ignoreTrimWhitespace": true,
+}
